@@ -64,10 +64,6 @@ main {
     height: 90vh;
     background-image: url("../assets/Hero-bg.png");
 }
-.banner-img {
-    width: 240px;
-    height: 240px;
-}
 .connect-btn {
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -117,11 +113,16 @@ main {
     letter-spacing: 0%;
     text-align: left;
 }
-.box1, .box2 , .box3 {
+.box1, .box2, .box3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 32px;
+    padding: 48px;
 }
+
 .box-btn {
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
@@ -134,4 +135,88 @@ main {
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+}
+/* my inspiration styles */
+.yt-vedio {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 48px 0px;
+    padding: 32px;
+}
+/* target-section styles */
+.my-current-target {
+    margin: 111px 0px;
+}
+.cards-title {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+.card-container {
+    display: flex;
+    gap: 24px;
+}
+.card-container .card1,.card2,.card3 {
+    padding: 40px;
+}
+.card-container a , .target-description a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+.card-container .card1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.card-container .card2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-container .card3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+/* next target styles */
+.full-widt-container .target {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin-bottom: 32px;
+    gap: 32;
+    padding: 40px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+.full-widt-container .target .target-description {
+    margin-left: 24px;
+}
+/* footer styles */
+.f-title {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px 32px 150px;
+    gap: 32;
+    align-items: center;
+}
+.f-right img {
+    margin: 0px 10px;
 }
