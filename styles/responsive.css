@@ -6,6 +6,9 @@
     .footer {
         flex-direction: column;
     }
+    .box1, .box2, .box3 {
+        padding: 2vw;
+    }
     .f-right {
         display: flex;
         margin-top: 2rem;
@@ -70,6 +73,9 @@
     .card-container,
     .footer {
         flex-direction: column;
+    }
+    .box1, .box2, .box3 {
+        padding: 2vw;
     }
     .box1,
     .box3 {
