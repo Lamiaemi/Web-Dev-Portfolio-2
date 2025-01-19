@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
 }
+ 
+html {
+    font-size: 62.5%;
+}
 input, button {
     cursor: pointer;
 }
+
 .azeret-mono-regular {
     font-family: "Azeret Mono", serif;
     font-optical-sizing: auto;
@@ -15,12 +20,13 @@ input, button {
 .text-primary {
     color: rgba(13, 19, 33, 1.00);
     font-weight: 900;
+    font-size: 3rem;
 }
 .box-weight {
-    width: 477px;
+    max-width: 477px;
 }
 .content-description {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 26px;
     color: rgb(13, 19, 33);
@@ -29,7 +35,7 @@ input, button {
     text-align: center;
 }
 .content-description-2 {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 26px;
     color: rgb(13, 19, 33);
@@ -46,14 +52,13 @@ input, button {
     margin-bottom: 50px;
 }
 .resume-btn {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 600;
-    line-height: 23px;
     color: rgba(13, 19, 33, 1.00);
-    padding: 17px 24px 17px 24px;
+    padding: 3vw 2vw;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
-    border-radius: 8px;
+    border-radius: .8rem;
     opacity: 0.8;
 }
 /* main styles */
@@ -64,27 +69,26 @@ main {
 /* banner styles */
 .banner-container {
     width: 100%;
-    height: 90vh;
     background-image: url("../assets/Hero-bg.png");
 }
 .connect-btn {
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 600;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding: 21px 24px 21px 24px;
 }
 .banner-title {
-    font-size: 48px;
+    font-size: 4vw;
     font-weight: 800;
-    line-height: 68px;
+    /* line-height: 68px; */
     color: rgb(13, 19, 33);
     text-align: center;
     margin-top: 32px;
 }
 .banner-content {
-    width: 998px;
+    max-width: 998px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -101,7 +105,7 @@ main {
 }
 .section-title {
     color: rgb(13, 19, 33);
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 800;
     line-height: 37px;
     letter-spacing: 0%;
@@ -110,7 +114,7 @@ main {
 }
 .section-subtitle {
     color: rgba(13, 19, 33, 0.7);
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 0%;
@@ -144,7 +148,8 @@ main {
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    margin: 48px 0px;
+    height: 400px;
+    /* margin: 48px 0px; */
     padding: 32px;
 }
 /* target-section styles */
@@ -153,7 +158,7 @@ main {
 }
 .cards-title {
     color: rgb(13, 19, 33);
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 0%;
@@ -169,7 +174,7 @@ main {
 }
 .card-container a , .target-description a {
     color: rgb(13, 19, 33);
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 700;
     text-align: left;
     line-height: 19px;
@@ -191,10 +196,10 @@ main {
 .full-widt-container .target {
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
-    border-radius: 16px;
-    margin-bottom: 32px;
+    border-radius: 1.6rem;
+    margin-bottom: 3.2rem;
     gap: 32;
-    padding: 40px;
+    padding: 4rem;
     background: rgb(255, 255, 255);
     display: flex;
     align-items: center;
@@ -212,7 +217,7 @@ main {
 }
 .support .support-title {
     color: rgb(255, 255, 255);
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 0%;
@@ -220,7 +225,7 @@ main {
 }
 .support-description {
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
@@ -234,7 +239,7 @@ main {
     border-radius: 8px;
     background: rgb(255, 255, 255);
     padding: 19px 20px 19px 20px;
-    width: 548px;
+    max-width: 548px;
 }
 .input-box {
     display: flex;
@@ -245,7 +250,7 @@ main {
 }
 .input-box input[type="submit"] {
     color: rgb(13, 19, 33);
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
@@ -259,7 +264,7 @@ main {
 /* footer styles */
 .f-title {
     color: rgb(13, 19, 33);
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
